@@ -1,0 +1,7 @@
+<mycompany-header title="Tickets"></mycompany-header>
+
+<ul>
+  <li *ngFor="let t of tickets|async">
+    {{ t.title }}
+  </li>
+</ul>

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mycompany/api-types": ["libs/api-types/src/index.ts"],
+      "@mycompany/common-ui": ["libs/common-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

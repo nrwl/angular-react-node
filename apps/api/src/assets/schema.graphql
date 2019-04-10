@@ -1,0 +1,8 @@
+type Ticket {
+  id: ID!
+  title: String!
+}
+
+type Query {
+  tickets: [Ticket!]!
+}
